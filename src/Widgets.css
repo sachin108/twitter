@@ -1,0 +1,26 @@
+.widgets{
+    flex: 0.32;
+    max-width: 350px;
+}
+.widgets_input > input {
+    border: none;
+    height: 40px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--twitter-background);
+  }
+  .widgets_input{
+    display: flex;
+    align-items: center;
+    background-color: var(background-color);
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widgets_searchIcon {
+    height: 42px !important;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:var(--twitter-background);
+  }
