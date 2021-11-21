@@ -1,6 +1,8 @@
 .widgets{
     flex: 0.32;
+    overflow-y: scroll;
     max-width: 350px;
+    scrollbar-width: none;
 }
 .widgets_input > input {
     border: none;
@@ -24,3 +26,17 @@
     border-bottom-left-radius: 20px;
     background-color:var(--twitter-background);
   }
+
+  .widgets_container{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+  }
+
+  
+.widgets__widgetContainer > h3 {
+  font-size: 18px;
+  font-weight: 800;
+}

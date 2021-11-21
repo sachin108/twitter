@@ -15,10 +15,10 @@ function Widgets() {
             </div>
             <div className="widgets_container">
                 <h3>What's happening</h3>
-                <TwitterTweetEmbed tweetId={"1383111548546162690"} />                
+                <TwitterTweetEmbed tweetId={"1457754817569361925"} />                
                 <TwitterTweetEmbed tweetId={"1458090274471743488"} />
                 <TwitterTweetEmbed tweetId={"858551177860055040"} />
-                <TwitterTimelineEmbed sourceType="profile" screenName="narendramodi" options={{ height: 400 }}/>
+                <TwitterTimelineEmbed sourceType="profile" screenName="earth" options={{ height: 400 }}/>
                 <TwitterShareButton url={"https://www.instagram.com/gameofthrones/"}/>
            </div>
         </div>
